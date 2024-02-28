@@ -1,0 +1,184 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(21, 199, 95);
+    color: rgb(51, 42, 42);
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    /* Размещение элементов внутри header в виде гибкого контейнера */
+    justify-content: center;
+    /* Равномерное распределение пространства между элементами */
+    align-items: center;
+    /* Выравнивание элементов по центру вертикально */
+}
+
+.nav {
+    margin-right: 10px;
+    right: 10px;
+    padding-right: 10px;
+}
+
+.menu {
+    top: 10px;
+    left: 10px;
+    padding: 1px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    /* Отступ сверху */
+    left: 10px;
+    /* Отступ слева */
+}
+
+h1 {
+    margin-right: 20px;
+}
+
+
+header div {
+    display: flex;
+    /* Гибкий контейнер для элементов внутри div */
+    align-items: center;
+    /* Выравнивание элементов по центру вертикально */
+}
+
+body {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* 100% высоты рабочей области */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 13%;
+    flex: 1;
+    /* Основная часть занимает доступное пространство */
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #333;
+    cursor: pointer;
+    color: white;
+}
+
+th.column-highlight {
+    box-shadow: 0px 0px 10px #9dff00;
+}
+
+
+table tbody tr:nth-child(even) {
+    background-color: #7319bd;
+}
+
+.novinki {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Запрещаем перенос на новую строку */
+    overflow-x: auto;
+    /* Добавляем горизонтальную прокрутку, если книги не помещаются на экране */
+}
+
+.special {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Запрещаем перенос на новую строку */
+    overflow-x: auto;
+    /* Добавляем горизонтальную прокрутку, если книги не помещаются на экране */
+}
+
+.book {
+    margin-right: 20px;
+}
+
+#aside {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px; /* Задайте ширину вашей боковой панели */
+    background-color: #f0f0f0; /* Задайте цвет фона вашей боковой панели */
+    padding: 10px; /* Задайте внутренний отступ для контента внутри боковой панели */
+    border-left: 1px solid #ccc; /* Задайте границу слева (если нужно) */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Задайте тень для эффекта высоты */
+  }
+
+  #aside1, #aside2 {
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+
+article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+*/
+
+/* Медиазапрос для экранов шириной более 600px */
+@media screen and (min-width: 600px) {
+    main {
+        padding: 40px;
+        /* Пример изменения отступов для больших экранов */
+    }
+}
+
+/* Медиазапрос для экранов шириной менее или равной 600px */
+@media screen and (max-width: 600px) {
+
+    th,
+    td {
+        padding: 8px;
+        /* Пример изменения отступов для маленьких экранов */
+    }
+}

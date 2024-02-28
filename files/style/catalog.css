@@ -1,0 +1,37 @@
+header {
+    position:sticky;
+    width: 100%;    
+    background-color: #c5a7a7;
+    color: rgb(51, 42, 42);
+    padding: 1px;
+    text-align: center;
+    display: flex; /* Размещение элементов внутри header в виде гибкого контейнера */
+    justify-content: center; /* Равномерное распределение пространства между элементами */
+    align-items: center; /* Выравнивание элементов по центру вертикально */
+}
+
+.logo img {
+    position: absolute;
+    top: 1%;
+    left: 0%;
+}
+
+.menu ul{
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+
+.nav ul{
+    position: relative;
+    top: 1%;
+}
+
+.novinki {
+    display: flex;
+}
+
+.book{
+    margin-bottom: 10%;
+    padding-left: 10%;
+}

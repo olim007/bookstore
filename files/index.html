@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahname</title>
+  <link rel="icon" href="../img/icon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style/styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+
+    <div>
+      <img class="logo" src="../img/логотип.png" width="120" height="90">
+
+      <menu class="menu">
+        <ul>
+          <li><a id="a" href="#section">раздел документа1</a></li>
+          <li><a id="a" href="#section">раздел документа2</a></li>
+          <li class="selected"><a href="http://localhost:3000/">Главная</a></li>
+          <li><a href="http://localhost:3000/contacts">Контакты</a></li>
+          <li><a href="http://localhost:3000/about">О магазине</a></li>
+        </ul>
+      </menu>
+    </div>
+
+    <div class="header-content">
+      <h1>Знание золото</h1>
+      <pre>
+        С тех пор как существует мирозданье,
+        Такого нет, кто б не нуждался в знанье.
+        
+        Какой мы ни возьмём язык и век,
+        Всегда стремился к знанью человек.
+        
+        А мудрые, чтоб каждый услыхал их,
+        Хваленья знанью высекли на скалах.
+        
+        От знанья в сердце вспыхнет яркий свет,
+        Оно для тела — как броня от бед.</pre>
+    </div>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="http://localhost:3000/catalog">Каталог</a></li>
+        <li><a href="http://localhost:3000/cart">Корзина</a></li>
+        <li><a href="http://localhost:3000/login">Вход и регистрация</a></li>
+        <li><a href="http://localhost:3000/account">Личный кабинет</a></li>
+        <li><a href="http://localhost:3000/search">Поиск и выдача</a></li>
+        <li><a href="http://localhost:3000/delivery">Доставка</a></li>
+        <li><a href="http://localhost:3000/payment">Оплата</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <main>
+    <section class="novinki">
+      <h2>Новинки</h2>
+      <!-- Здесь можете разместить информацию о новых книгах -->
+      <div class="book">
+        <img src="../img/новинки/book (1).jpeg" alt="Книга 1" width="140" height="190">
+        <h3>Название книги 1</h3>
+        <p>Описание книги 1. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">9.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+      <div class="book">
+        <img src="../img/новинки/book (2).jpeg" alt="Книга 2" width="140" height="190">
+        <h3>Название книги 2</h3>
+        <p>Описание книги 2. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">5.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+      <div class="book">
+        <img src="../img/новинки/book (3).jpeg" alt="Книга 3" width="140" height="190">
+        <h3>Название книги 3</h3>
+        <p>Описание книги 3. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">8.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+      <div class="book">
+        <img src="../img/новинки/book (4).jpeg" alt="Книга 4" width="140" height="190">
+        <h3>Название книги 4</h3>
+        <p>Описание книги 4. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">9.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+    </section>
+
+    <br>
+    <br>
+
+    <section class="special">
+      <div>
+        <h2>Специальные предложения</h2>
+        <!-- Здесь можете разместить информацию о скидках и акциях -->
+        <h3> Скидка 50% </h3>
+      </div>
+      <div class="book">
+        <img src="../img/Специальные предложения/book (1).webp" alt="Книга 1" width="140" height="190">
+        <h3>Название книги 1</h3>
+        <p>Описание книги 1. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">7.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+      <div class="book">
+        <img src="../img/Специальные предложения/book (2).webp" alt="Книга 2" width="140" height="190">
+        <h3>Название книги 2</h3>
+        <p>Описание книги 2. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">6.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+      <div class="book">
+        <img src="../img/Специальные предложения/book (3).webp" alt="Книга 3" width="140" height="190">
+        <h3>Название книги 3</h3>
+        <p>Описание книги 3. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">7.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+      <div class="book">
+        <img src="../img/Специальные предложения/book (4).webp" alt="Книга 4" width="140" height="190">
+        <h3>Название книги 4</h3>
+        <p>Описание книги 4. Краткое и интересное описание.</p>
+        <p>Стоимость: <span id="price">3.99 USD</span></p>
+        <button>Добавить в корзину</button>
+      </div>
+
+
+    </section>
+
+
+    <section>
+      <h2>Главная</h2>
+
+      <!-- Таблица с прокруткой -->
+      <div style="overflow-x:auto;">
+        <table class="table">
+          <caption>Таблица с книгами</caption>
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Автор</th>
+              <th>Год издания</th>
+              <th>Жанр</th>
+              <th>Цена</th>
+              <th>В наличии</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Добавьте несколько строк с данными -->
+            <tr>
+              <td>Книга 1</td>
+              <td>Автор 1</td>
+              <td>2022</td>
+              <td>Жанр 1</td>
+              <td>$10</td>
+              <td>Да</td>
+            </tr>
+            <tr>
+              <td>Книга 2</td>
+              <td>Автор 2</td>
+              <td>2021</td>
+              <td>Жанр 2</td>
+              <td>$15</td>
+              <td>Нет</td>
+            </tr>
+            <tr>
+              <td>Книга 3</td>
+              <td>Автор 3</td>
+              <td>2001</td>
+              <td>Жанр 3</td>
+              <td>$12</td>
+              <td>Нет</td>
+            </tr>
+            <tr>
+              <td>Книга 4</td>
+              <td>Автор 4</td>
+              <td>2004</td>
+              <td>Жанр 4</td>
+              <td>$8</td>
+              <td>Да</td>
+            </tr>
+            <!-- ... Добавьте больше строк при необходимости ... -->
+          </tbody>
+        </table>
+      </div>
+      <!-- Конец таблицы с прокруткой -->
+
+    </section>
+
+
+
+
+    <article id="article">
+      <h2>Статья 1</h2>
+      <section>
+          <h3>Подраздел 1.1</h3>
+          <p>Содержание подраздела 1.1...</p>
+      </section>
+      <section>
+          <h3>Подраздел 1.2</h3>
+          <p>Содержание подраздела 1.2...</p>
+      </section>
+  </article>
+
+  <article>
+      <h2>Статья 2</h2>
+      <section>
+          <h3>Подраздел 2.1</h3>
+          <p>Содержание подраздела 2.1...</p>
+      </section>
+      <section>
+          <h3>Подраздел 2.2</h3>
+          <p>Содержание подраздела 2.2...</p>
+      </section>
+  </article>
+
+  <aside id="aside1">
+      <h2>Боковая панель 1</h2>
+      <p>Содержание боковой панели 1...</p>
+  </aside>
+
+
+  </main>
+
+  <aside id="aside2">
+    <h2>Боковая панель 2</h2>
+    <p>Содержание боковой панели 2...</p>
+</aside>
+
+  <aside id="aside">
+    <h2>Боковая панель</h2>
+    <ul>
+      <li><a href="#">Ссылка 1</a></li>
+      <li><a href="#">Ссылка 2</a></li>
+      <li><a href="#">Ссылка 3</a></li>
+    </ul>
+  </aside>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer>
+    <audio controls>
+      <p>Ваш браузер не поддерживает аудио элемент.</p>
+      <source src="../audio/videoplayback (1).m4a">
+      Ваш браузер не поддерживает встроенные аудио-элементы.
+    </audio>
+
+    <video width="640" height="360" controls>
+      <p>Ваш браузер не поддерживает видео элемент.</p>
+      <source src="../video/Фирдоуси — 10 Мудрых Мыслей....mp4">
+      Ваш браузер не поддерживает встроенные видео-элементы.
+    </video>
+  </footer>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section id="section">
+    <div>
+      <p>раздел документа</p>
+    </div>
+  </section>
+  <section id="section">
+    <div>
+      <p>раздел документа</p>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <form id="surveyForm">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name">
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+  
+  
+    <input type="reset" value="Сбросить" id="resetButton">
+    <input type="submit" value="Отправить" id="submitButton">
+  </form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <script src="../javascript/index.js"></script>
+  <script src="../libs/jquery-3.7.1.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+header {
+    position: static;
+    width: 100%;    
+    background-color: #c5a7a7;
+    color: rgb(51, 42, 42);
+    padding: 1px;
+    text-align: center;
+    display: flex; /* Размещение элементов внутри header в виде гибкого контейнера */
+    justify-content: center; /* Равномерное распределение пространства между элементами */
+    align-items: center; /* Выравнивание элементов по центру вертикально */
+}
+
+.logo img {
+    position: static;
+    top: 1%;
+    left: 0%;
+}
+
+.main {
+    padding-left: 20%;
+    padding-top: 5%;
+}

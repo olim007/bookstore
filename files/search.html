@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahname</title>
+  <link rel="icon" href="../img/icon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../style/search.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Покупай знание</h1>
+      <img src="../img/логотип.png" width="120" height="90">
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="http://localhost:3000/">Главная</a></li>
+        <li><a href="http://localhost:3000/contacts">Контакты</a></li>
+        <li><a href="http://localhost:3000/about">О магазине</a></li>
+        <li><a href="http://localhost:3000/catalog">Каталог</a></li>
+        <li><a href="http://localhost:3000/cart">Корзина</a></li>
+        <li><a href="http://localhost:3000/login">Вход и регистрация</a></li>
+        <li><a href="http://localhost:3000/account">Личный кабинет</a></li>
+        <li><a href="http://localhost:3000/search">Поиск и выдача</a></li>
+        <li><a href="http://localhost:3000/delivery">Доставка</a></li>
+        <li><a href="http://localhost:3000/payment">Оплата</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section>
+      <h2>Поиск книг</h2>
+      <form>
+        <label for="searchQuery">Введите запрос:</label>
+        <input type="text" id="searchQuery" name="searchQuery" required>
+        <button type="submit">Искать</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Результаты поиска</h2>
+      <div class="book">
+        <img width="140" height="190" src="../img/books/book (3).webp" alt="Книга 3">
+        <h3>Название книги 3</h3>
+        <p>Описание книги 3. Краткое и интересное описание.</p>
+        <button>Добавить в корзину</button>
+      </div>
+<br>
+      <div class="book">
+        <img width="140" height="190" src="../img/books/book (4).webp" alt="Книга 4">
+        <h3>Название книги 4</h3>
+        <p>Описание книги 4. Краткое и интересное описание.</p>
+        <button>Добавить в корзину</button>
+      </div>
+
+      <!-- Добавьте ещё книг по аналогии -->
+    </section>
+  </main>
+
+  <footer>
+    <!-- Здесь можете разместить информацию о футере (например, о магазине) -->
+  </footer>
+
+</body>
+
+</html>
